@@ -4,9 +4,42 @@
 <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="heading">Rock Paper Scissors</div>
+    <div class="game">
+        <div class="choice user">
+            <img class="user_img">
+            <div class="user_play"></div>
+        </div>
+        <div class="choice computer">
+            <img class="computer_img">
+            <div class="computer_play"></div>
+        </div>
+    </div>
+
+    <div class="round_result" style="text-align: center;"></div>
+
+    <div class="user_choice">
+        <div class="choice divrock">
+            <img src="images/rock.png">
+            <div class="rock">Rock</div>
+        </div>
+        <div class="choice divpaper">
+            <img src="images/paper.png">
+            <div class="paper">Paper</div>
+        </div>
+        <div class="choice divscissors">
+            <img src="images/scissors.png">
+            <div class="scissors">Scissors</div>
+        </div>
+    </div>
+
+    <div class="hm">
+        <li class="result">User-0 0-Computer</li>
+    </div>
     <script src="script.js"></script>
 </body>
 
