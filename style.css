@@ -1,3 +1,39 @@
-#output{
-    font-size: larger;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+/* ================================= */
+
+.game{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+}
+
+/* ================================= */
+
+.user_choice{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+}
+
+.choice{
+    text-align: center;
+}
+
+/* ================================= */
+
+.hm{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
